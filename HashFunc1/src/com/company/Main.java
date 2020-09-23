@@ -24,10 +24,10 @@ public class Main {
 
                 for (int k = 0;k<alphabet.length;k++) {
                     if(words[i].charAt(0)==alphabet[k]){
-                        first=k+1;
+                        first=k;
                     }
                     if(words[i].charAt(words[i].length()-1)==alphabet[k]){
-                        last=k+2;
+                        last=k+1;
                     }
 
                     if (words[i].charAt(j) == alphabet[k]) {
